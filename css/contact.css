@@ -1,0 +1,31 @@
+body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 20px;
+    font-weight: 700;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+input{
+    border: 1px black solid;
+}
+textarea{
+    border: 1px black solid;
+}
